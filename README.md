@@ -7,7 +7,7 @@ Accessible through this link: https://lead-webhook-front-end.herokuapp.com
 
 Add lead via webhook cURL command sample
 ``` bash
-curl --location --request POST 'https://lead-webhook-front-end.herokuapp.com/webhook/81dc9bdb52d04dc20036dbd8313ed055/lead' \
+curl --location --request POST 'https://lead-webhook.herokuapp.com/webhook/81dc9bdb52d04dc20036dbd8313ed055/lead' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 	"Name": "Indra12",
