@@ -59,7 +59,7 @@ function SimpleTable( { initData, webhookPath, total, userID }) {
         <TextField
           style={{width: "45%", textAlign: "center"}}
           id="filled-read-only-input"
-          defaultValue={`${process.env.serverURL}${webhookPath}`}
+          defaultValue={`${process.env.NEXT_PUBLIC_SERVER_URL}${webhookPath}`}
           InputProps={{
             readOnly: true,
             disableUnderline: true,

@@ -1,6 +1,12 @@
 module.exports = {
-    env: {
-        serverURL: 'http://localhost:8080',
+    async redirects() {
+        return [
+            {
+                source: '/',
+                destination: '/leads/0',
+                permanent: true,
+            },
+        ]
     },
 }
   
